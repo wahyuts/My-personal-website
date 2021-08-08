@@ -37,7 +37,7 @@ const Skill = () => {
                     <div className={styles.marginImgJS}>
                         <Image src="/JSLogo.png"  width={300} height={300}  />
                     </div>
-                    <p>JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages, but it's used in many non-browser environments as well. 
+                    <p>JavaScript often shortened to JS is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages, but it's used in many non-browser environments as well. 
                         It is a prototype-based, multi-paradigm scripting language that is dynamic, and supports object-oriented, imperative, and functional programming styles.</p>
                 </div>
             </div>

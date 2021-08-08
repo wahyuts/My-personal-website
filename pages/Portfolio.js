@@ -28,25 +28,25 @@ const Portfolio = () => {
                 </div>
                 <div>
                     <a href="https://github.com/wahyuts/Travelook" className={styles.zone}>
-                        <img src="/Travelook.png" width={300} height={185} style={{marginBottom:8}}/>
-                        <p>Travelook</p>
+                        <Image src="/Travelook.png" width={278} height={185} style={{marginBottom:8}}/>
+                        <p style={{paddingTop:10}}>Travelook</p>
                     </a>
                 </div>
                 <div>
                     <a href="#" className={styles.zone}>
-                        <img src="/I-Look-project.png" width={300} height={185} style={{marginBottom:8}}/>
-                        <p>I-Look (on going)</p>
+                        <Image src="/I-Look-project.png" width={278} height={185} style={{marginBottom:8}}/>
+                        <p style={{paddingTop:10}}>I-Look (on going)</p>
                     </a>
                 </div>
                 <div>
                     <a href="https://robo-friends-self.vercel.app/" className={styles.zone}>
-                        <img src="/Robo-Friends.png" width={300} height={185} style={{marginBottom:8}}/>
-                        <p>Robo Friends</p>
+                        <Image src="/Robo-Friends.png" width={278} height={185} style={{marginBottom:8}}/>
+                        <p style={{paddingTop:10}}>Robo Friends</p>
                     </a>
                 </div>
                 <div className={styles.zone}>
-                    <img src="/comingsoon.jpg" width={300} height={185} style={{marginBottom:8}}/>
-                    <p>Stay tuned, coming soon!</p>
+                    <Image src="/comingsoon.jpg" width={278} height={185} style={{marginBottom:8}}/>
+                    <p style={{paddingTop:10}}>Stay tuned, coming soon!</p>
                 </div>
             </div>
             <div className={styles.contTitleSkill}>

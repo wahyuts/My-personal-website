@@ -21,7 +21,7 @@ const Contact = () => {
                 <div className={styles.contPart1}>
                     <h2>Just say hi.</h2>
                     <br/>
-                    <p>I am always open to discuss project with you. Please call me with email or social media. Let's improve our skill together!</p>
+                    <p>I am always open to discuss project with you. Please call me with email or social media. Lets improve our skill together!</p>
                     <br/>
                     <br/>
                     <p>Email me at</p>
