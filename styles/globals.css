@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@font-face { /*deklarasi font sendiri(bukan google font) agar bisa dikenali css dan dipake*/
+  font-family: "Font Genshin";
+  src: url('/genshin.ttf'); /*taro file ttf nya di public dan tulis baris kode ini untuk pick up*/
+}
 
 *{
   margin:0;
@@ -109,6 +113,22 @@ footer {
   margin-top: auto;
   color: #777;
   border-top: 1px solid #eaeaea;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size:1.5rem;
+  font-family: 'Font Genshin';
+  height: 90vh;
+
+}
+.not-found a{
+  color: #4979ff;
+  text-decoration: underline;
 }
 
 
