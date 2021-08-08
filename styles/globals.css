@@ -13,6 +13,9 @@ html {
   height:100%;
   background: rgb(246,240,240);
   background: linear-gradient(13deg, rgba(246,240,240,1) 10%, rgba(218,244,255,0.9890567050890976) 51%);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
   /* background-color:#f7f7f7; */
   font-size: 62.5%;
   font-family: 'Roboto', sans-serif;
