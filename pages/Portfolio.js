@@ -37,9 +37,11 @@ const Portfolio = () => {
                         <p>I-Look (on going)</p>
                     </a>
                 </div>
-                <div className={styles.zone}>
-                    <img src="/comingsoon.jpg" width={300} height={185} style={{marginBottom:8}}/>
-                    <p>Stay tuned, coming soon!</p>
+                <div>
+                    <a href="https://robo-friends-self.vercel.app/" className={styles.zone}>
+                        <img src="/Robo-Friends.png" width={300} height={185} style={{marginBottom:8}}/>
+                        <p>Robo Friends</p>
+                    </a>
                 </div>
                 <div className={styles.zone}>
                     <img src="/comingsoon.jpg" width={300} height={185} style={{marginBottom:8}}/>
