@@ -33,7 +33,7 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className={styles.contTitleSkill}>
-                <p>Visit <a href="#" style={{color:"#2596be",cursor:"default",textDecoration:"none"}}>my github</a> account to see more of my work</p>
+                <p>Visit <a href="https://github.com/wahyuts/MyPortfolio" style={{color:"#2596be",cursor:"default",textDecoration:"none"}}>my github</a> account to see more of my work</p>
             </div>
         </div>
      );

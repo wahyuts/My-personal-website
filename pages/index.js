@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import ButtonCool from '../comps/ButtonCool'
 import ButtonCool2 from '../comps/ButtonCool2'
 import styles from '../styles/Home.module.css'
@@ -13,8 +14,8 @@ export default function Home() {
                 <h2 className={styles.h2space}>Im a freelance Frontend Developer</h2>
 
                 <div className={styles.contBtn}>
-                    <ButtonCool/>
-                    <ButtonCool2/>
+                    <Link href="/Portfolio"><a><ButtonCool/></a></Link>
+                    <Link href="/Contact"><a><ButtonCool2/></a></Link>
                 </div>
             </div>
 

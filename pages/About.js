@@ -26,11 +26,6 @@ const About = () => {
                     So now after graduate form Glints Accademy i become a frontend developer.
                     <br/>
                     <br/>
-                    <div className={styles.medsos}>
-                        <a>FB</a>
-                        <a>Link in</a>
-                        <a>My cv</a>
-                    </div>
                 </p>
                 
                 <div className={styles.noFlex}>

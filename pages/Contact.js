@@ -1,5 +1,8 @@
 import FormQnA from '../comps/FormQnA'
 import styles from '../styles/Contact.module.css'
+import FacebookIcon from '@material-ui/icons/Facebook'
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import Link from 'next/link'
 
 const Contact = () => {
     return ( 
@@ -20,10 +23,10 @@ const Contact = () => {
                     <p>wahyu.trisna100@gmail.com</p>
                     <br/>
                     <br/>
-                    <p>Follow</p>
+                    <p>Follow me at</p>
                     <div className={styles.flexSosMed}>
-                        <a>FB</a>
-                        <a>Linkin</a>
+                        <FacebookIcon style={{width:50,height:50}}/>
+                        <Link href="https://www.linkedin.com/in/wahyu-trisna-745022196/"><a style={{textDecoration:"none"}}><LinkedInIcon style={{width:50,height:50}}/></a></Link>
                     </div>
                 </div>
 

@@ -57,6 +57,7 @@ html {
   list-style: none;
 }
 
+
 .navLink{
   text-decoration: none;
   font-family: 'Trade Winds', cursive;  
@@ -117,7 +118,7 @@ footer {
       left: -100%;
       top: 7.2rem;
       flex-direction: column;
-      background-color: #fff;
+      background-color: #c8d3e9;
       width: 100%;
       border-radius: 10px;
       text-align: center;

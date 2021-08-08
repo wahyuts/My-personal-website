@@ -31,3 +31,20 @@
 .marginParagraph{
     margin-right: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+    .contAbout{
+        display:flex;
+        flex-direction:column;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-family: 'Font Genshin';
+        font-size:1.5rem;
+    }
+
+    .noFlex{
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
