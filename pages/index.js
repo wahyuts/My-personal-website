@@ -24,7 +24,7 @@ export default function Home() {
             </div>
 
             <div className="contIMG">
-                <img src="/photo2.png" width={400} height={300}/> 
+                <Image src="/photo2.png" width={400} height={300}/> 
             </div>
         </div>
     </div>

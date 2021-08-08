@@ -1,6 +1,7 @@
 // import styles from '../styles/HeadNav.module.css'
 import React, {useEffect,useState} from "react";
 import Link from 'next/link'
+import Image from 'next/image'
 
 
 const NavHeader = () => {
@@ -31,7 +32,7 @@ const NavHeader = () => {
             <div className="header">
                 <Link href="/">
                     <div className="navLogo">
-                        <img src="/webLogo.png" width={50} height={50} style={{marginRight:10}}/>
+                        <Image src="/webLogo.png" width={50} height={50} style={{marginRight:15}}/>
                         <a>Wahyu Trisna Setiadi</a> 
                     </div>
                 </Link>

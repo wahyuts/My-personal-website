@@ -59,8 +59,8 @@
 }
 
 .marginImg{
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .marginImgJS{
@@ -81,7 +81,7 @@
         /* justify-content: flex-start; */
         align-items: center;
         width: 1000px;
-        height: 470px;
+        height: 500px;
         padding-left: 20px;
         padding-right: 20px;
         background-color: #2596be;
@@ -97,7 +97,7 @@
         /* justify-content: flex-end; */
         align-items: center;
         width: 1000px;
-        height: 400px;
+        height: 430px;
         padding-left: 20px;
         padding-right: 20px;
         background-color: #4d3a07;

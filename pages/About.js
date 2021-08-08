@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/About.module.css'
 
 const About = () => {
@@ -34,8 +35,7 @@ const About = () => {
                 </p>
                 
                 <div className={styles.noFlex}>
-                    <img src="/mySelfy.jpg" width={300} height={400}/>
-
+                    <Image src="/mySelfy.jpg" width={1500} height={2300}/>
                 </div>
             </div>
         </div>
