@@ -32,3 +32,18 @@
     margin-right: 40px;
 
 }
+
+@media only screen and (max-width: 768px){
+    .contContact{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .contPart1{
+        font-family: 'Font Genshin';
+        font-size:1.5rem;
+        margin-bottom: 20px;
+    }
+}

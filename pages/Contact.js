@@ -5,7 +5,7 @@ const Contact = () => {
     return ( 
         <div>
             <div className={styles.contTitleContact}>
-                <h2>My Portfolio</h2>
+                <h2>Contact</h2>
             </div>
             <div className={styles.contContact}>
 

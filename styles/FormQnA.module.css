@@ -22,6 +22,7 @@
   }
   
   .inputField {
+    font-family: 'Font Genshin regular';
     padding-left: 10px;
     border: 1px solid #333;
     border-radius: 4px;
@@ -29,11 +30,11 @@
     width: 100%;
   }
   
-  /* p {
+  .errorMsg {
     color: #d41a1a;
     font-size: 12px;
     margin: 4px 0 8px 0;
-  } */
+  }
   
   .buttonForm {
     background: #e5e5e5;
@@ -42,3 +43,14 @@
     font-size: 18px;
     padding: 8px 16px;
   }
+
+  @media only screen and (max-width: 768px){
+    .inputFieldTX {
+        font-family: 'Font Genshin regular';
+        padding-left: 10px;
+        border: 1px solid #333;
+        border-radius: 4px;
+        height: 200%;
+        width: 100%;
+      }
+}
