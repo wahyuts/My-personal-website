@@ -1,0 +1,54 @@
+@font-face { /*deklarasi font sendiri(bukan google font) agar bisa dikenali css dan dipake*/
+    font-family: "Font Genshin";
+    src: url('/genshin.ttf'); /*taro file ttf nya di public dan tulis baris kode ini untuk pick up*/
+ }
+
+.contTitleSkill{
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px 100px;
+    font-family: 'Font Genshin';
+    font-size:1.7rem;
+    color: #9b98ad;
+}
+
+.gridWrapper{
+    display: grid;
+    margin-top: 50px;
+    margin-left: 100px;
+    /* margin-right: 100%; */
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr)); 
+}
+
+.zone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor:pointer;
+    color:rgb(219, 34, 195);
+    font-family: 'Font Genshin';
+    font-size:1.5em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+
+    height: 250px;
+    width: 310px;
+    /* padding: 130px; */
+    background-color: rgb(228, 158, 8);
+
+    margin-bottom: 50px;
+
+}
+
+.zone>img{
+    width: 89%;
+}
+
+.zone:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}

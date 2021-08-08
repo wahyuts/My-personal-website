@@ -1,3 +1,7 @@
+@font-face { /*deklarasi font sendiri(bukan google font) agar bisa dikenali css dan dipake*/
+    font-family: "Font Genshin";
+    src: url('/genshin.ttf'); /*taro file ttf nya di public dan tulis baris kode ini untuk pick up*/
+ }
 
 .contLeft{
     display: flex;
@@ -9,7 +13,9 @@
     display: flex;
     justify-content: flex-start;
     margin: 50px 100px;
+    font-family: 'Font Genshin';
     font-size:1.7rem;
+    color: #9b98ad;
 }
 
 .contLeftNext{
@@ -28,11 +34,13 @@
     display:flex;
     /* justify-content: flex-start; */
     align-items: center;
+    text-align: justify;
     width: 1000px;
     height: 180px;
-    padding-right: 10px;
+    padding-right: 20px;
     background-color: #2596be;
-    font-size:1.6rem;
+    font-family: 'Font Genshin';
+    font-size:1.4rem;
     color: #ffffff;
 }
 
@@ -40,11 +48,13 @@
     display:flex;
     /* justify-content: flex-end; */
     align-items: center;
+    text-align: justify;
     width: 1000px;
     height: 180px;
-    padding-right: 10px;
+    padding-right: 20px;
     background-color: #4d3a07;
-    font-size:1.6rem;
+    font-family: 'Font Genshin';
+    font-size:1.4rem;
     color: #ffffff;
 }
 
@@ -56,4 +66,64 @@
 .marginImgJS{
     margin-right: 20px;
     margin-left: 20px;
+}
+
+.marginImgReact{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .contEachLeft{
+        display:flex;
+        flex-direction:column;
+        text-align: justify;
+        /* justify-content: flex-start; */
+        align-items: center;
+        width: 1000px;
+        height: 470px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #2596be;
+        font-family: 'Font Genshin';
+        font-size:1.4rem;
+        color: #ffffff;
+    }
+    
+    .contEachRight{
+        display:flex;
+        flex-direction: column;
+        text-align: justify;
+        /* justify-content: flex-end; */
+        align-items: center;
+        width: 1000px;
+        height: 400px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #4d3a07;
+        font-family: 'Font Genshin';
+        font-size:1.4rem;
+        color: #ffffff;
+    }
+
+    .marginImg{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .marginImgJS{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .marginImgReact{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 }

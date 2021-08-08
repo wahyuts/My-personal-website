@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+@font-face { /*deklarasi font sendiri(bukan google font) agar bisa dikenali css dan dipake*/
+    font-family: "Font Genshin";
+    src: url('/genshin.ttf'); /*taro file ttf nya di public dan tulis baris kode ini untuk pick up*/
+ }
+
 
 .container{
     display:flex;
@@ -11,10 +16,12 @@
 }
 
 .h4space{
+    font-family: "Font Genshin";
     margin-bottom: 20px;
 }
 
 .h2space{
+    font-family: "Font Genshin";
     margin-bottom: 40px;
 }
 

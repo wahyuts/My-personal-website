@@ -1,0 +1,33 @@
+@font-face { /*deklarasi font sendiri(bukan google font) agar bisa dikenali css dan dipake*/
+    font-family: "Font Genshin";
+    src: url('/genshin.ttf'); /*taro file ttf nya di public dan tulis baris kode ini untuk pick up*/
+ }
+
+.contTitleAbout{
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px 100px;
+    font-family: 'Font Genshin';
+    font-size:1.7rem;
+    color: #9b98ad;
+}
+
+.contAbout{
+    display:flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Font Genshin';
+    font-size:1.5rem;
+}
+
+.noFlex{
+    margin-left: 80px;
+}
+
+.medsos{
+    display:flex;
+}
+
+.marginParagraph{
+    margin-right: 50px;
+}
