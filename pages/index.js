@@ -8,6 +8,10 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.onlyWidth}>
+        <Head>
+          <title>WTS Personal Web | Home</title>
+          <link rel="icon" href="/favicon-32x32.png" />
+        </Head>
         <div className={styles.container}>
             <div className={styles.contText}>
                 <h4 className={styles.h4space}>Hi, my name is Wahyu Trisna Setiadi.</h4>

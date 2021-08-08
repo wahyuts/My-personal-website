@@ -3,10 +3,16 @@ import styles from '../styles/Contact.module.css'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Link from 'next/link'
+import Head from 'next/head'
+
 
 const Contact = () => {
     return ( 
         <div>
+            <Head>
+                <title>WTS Personal Web | Contact</title>
+                <link rel="icon" href="/favicon-32x32.png" />
+            </Head>
             <div className={styles.contTitleContact}>
                 <h2>Contact</h2>
             </div>

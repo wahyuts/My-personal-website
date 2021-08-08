@@ -1,8 +1,13 @@
+import Head from 'next/head'
 import styles from '../styles/About.module.css'
 
 const About = () => {
     return ( 
         <div>
+            <Head>
+                <title>WTS Personal Web | About</title>
+                <link rel="icon" href="/favicon-32x32.png" />
+            </Head>
             <div className={styles.contTitleAbout}>
                 <h2>About me</h2>
             </div>

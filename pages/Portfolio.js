@@ -1,9 +1,14 @@
-import Link from 'next/link'
+import Head from 'next/head'
+// import Link from 'next/link'
 import styles from '../styles/Portfolio.module.css'
 
 const Portfolio = () => {
     return ( 
         <div>
+            <Head>
+                <title>WTS Personal Web | Portfolio</title>
+                <link rel="icon" href="/favicon-32x32.png" />
+            </Head>
             <div className={styles.contTitleSkill}>
                 <h2>My Portfolio</h2>
             </div>

@@ -1,8 +1,13 @@
+import Head from 'next/head'
 import styles from '../styles/Skill.module.css'
 
 const Skill = () => {
     return ( 
         <div>
+            <Head>
+                <title>WTS Personal Web | Skill</title>
+                <link rel="icon" href="/favicon-32x32.png" />
+            </Head>
             <div className={styles.contTitleSkill}>
                 <h2>Developing Skill</h2>
             </div>
