@@ -78,6 +78,7 @@ html {
 .navLogo{
   display:flex;
   align-items: center;
+  justify-content: space-between;
   margin-left:30px;
   font-family: 'Trade Winds', cursive;  
   font-size: 2.1rem;
@@ -133,10 +134,50 @@ footer {
 
 
 @media only screen and (max-width: 768px) {
+  .header{
+    /*pake position akan sedikit menghilangkan efek margin yang ditimbulkan dari flex semacam justify content,..jadi harus atur manual lagi pake width dan margi biasa*/
+    position: fixed; /*position fied digunkan agar gambar atau element apapun tetep pada psoisi asalnya meski browser di scroll,..jadi kalo posisinya diatas maka akan di atas,..kalo dibawah maka dibawah*/
+    top: 0; /*top, bottom, left, right adalah atribut yang dipake barengan sama position,..ini make top buat ngatur jarak ke atas*/
+    width: 100%;
+    background: rgb(246,240,240);
+    background: linear-gradient(13deg, rgba(246,240,240,1) 10%, rgba(218,244,255,0.9890567050890976) 51%);
+    border-bottom: 1px solid #E2E8F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    z-index: 1;
+  }
+
+  footer {
+    display: block;
+    text-align: center;
+    font-family: 'Trade Winds', cursive;  
+    font-size: 1.6rem;
+    background-color: "transparant";
+    width: 100%;
+    padding: 30px 0;
+    margin-top: auto;
+    color: #777;
+    border-top: 1px solid #eaeaea;
+  }
+
+  .navLogo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:25px;
+    font-family: 'Trade Winds', cursive;  
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #482ff7;
+    cursor:default;
+  }
+
   .navMenu {
-      position: fixed;
+      position: absolute;
       left: -100%;
-      top: 7.2rem;
+      top: 7.1rem;
       flex-direction: column;
       background-color: #c8d3e9;
       width: 100%;

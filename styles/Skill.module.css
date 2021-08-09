@@ -74,10 +74,21 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+    .contTitleSkill{
+        display: flex;
+        justify-content: flex-start;
+        margin: 50px 50px;
+        margin-top: 100px;
+        font-family: 'Font Genshin';
+        font-size:1.7rem;
+        color: #9b98ad;
+    }
+
     .contEachLeft{
         display:flex;
         flex-direction:column;
-        text-align: justify;
+        text-align: left;
         /* justify-content: flex-start; */
         align-items: center;
         width: 1000px;
@@ -93,7 +104,7 @@
     .contEachRight{
         display:flex;
         flex-direction: column;
-        text-align: justify;
+        text-align: left;
         /* justify-content: flex-end; */
         align-items: center;
         width: 1000px;
@@ -104,6 +115,25 @@
         font-family: 'Font Genshin';
         font-size:1.4rem;
         color: #ffffff;
+    }
+
+    
+    .contLeft{
+        display: flex;
+        justify-content: flex-start;
+        margin: 50px 50px;
+    }
+
+    .contRight{
+        display: flex;
+        justify-content: flex-end;
+        margin: 50px 50px;
+    }
+
+    .contLeftNext{
+        display: flex;
+        justify-content: flex-start;
+        margin: 50px 50px;
     }
 
     .marginImg{

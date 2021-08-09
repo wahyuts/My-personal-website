@@ -60,7 +60,7 @@
 
 @media only screen and (max-width: 768px) {
     .navMenu {
-        position: fixed;
+        position: absolute;
         left: -100%;
         top: 5rem;
         flex-direction: column;

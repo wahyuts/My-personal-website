@@ -33,11 +33,20 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .contTitleAbout{
+        display: flex;
+        justify-content: flex-start;
+        margin: 50px 50px;
+        margin-top: 100px;
+        font-family: 'Font Genshin';
+        font-size:1.7rem;
+        color: #9b98ad;
+    }
     .contAbout{
         display:flex;
         flex-direction:column;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
         font-family: 'Font Genshin';
         font-size:1.5rem;
     }

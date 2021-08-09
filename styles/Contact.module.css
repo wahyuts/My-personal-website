@@ -35,16 +35,31 @@
 }
 
 @media only screen and (max-width: 768px){
+    .contTitleContact{
+        display: flex;
+        justify-content: flex-start;
+        margin: 50px 50px;
+        margin-top: 100px;
+        font-family: 'Font Genshin';
+        font-size:1.7rem;
+        color: #9b98ad;
+    }
     .contContact{
         display: flex;
         flex-direction: column;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .contPart1{
         font-family: 'Font Genshin';
         font-size:1.5rem;
         margin-bottom: 20px;
+    }
+
+    .listForm{
+        margin-left: 20px;
+        margin-right: 20px;
+    
     }
 }

@@ -32,7 +32,7 @@ const NavHeader = () => {
             <div className="header">
                 <Link href="/">
                     <div className="navLogo">
-                        <Image src="/webLogo.png" width={50} height={50} style={{marginRight:15}}/>
+                        <Image src="/webLogo.png" width={50} height={50} layout="fixed"/>
                         <a>Wahyu Trisna Setiadi</a> 
                     </div>
                 </Link>
