@@ -22,21 +22,21 @@ const Portfolio = () => {
                     </a>
                 </div>
                 <div>
-                    <a href="https://simple-next-app-one.vercel.app/" className={styles.zone}>
-                        <Image src="/Ninja-List.png" alt="" width={300} height={185} style={{marginBottom:8}}/>
-                        <p style={{paddingTop:10}}>Ninja-List (Tutor NextJS)</p>
+                    <a href="https://us.campaign.com/" className={styles.zone}>
+                        <Image src="/campaign.png" alt="" width={300} height={185} style={{marginBottom:8}}/>
+                        <p style={{paddingTop:10}}>US Campaign</p>
                     </a>
                 </div>
                 <div>
-                    <a href="https://github.com/wahyuts/Travelook" className={styles.zone}>
-                        <Image src="/Travelook.png" alt="" width={300} height={185} style={{marginBottom:8}}/>
-                        <p style={{paddingTop:10}}>Travelook</p>
+                    <a href="https://twix-media-social-webapp.vercel.app/" className={styles.zone}>
+                        <Image src="/twix.png" alt="" width={300} height={185} style={{marginBottom:8}}/>
+                        <p style={{paddingTop:10}}>Twix simple media social</p>
                     </a>
                 </div>
                 <div>
-                    <a href="#" className={styles.zone}>
-                        <Image src="/I-Look-project.png" alt="" width={300} height={185} style={{marginBottom:8}}/>
-                        <p style={{paddingTop:10}}>I-Look (on going)</p>
+                    <a href="https://campflix.vercel.app/" className={styles.zone}>
+                        <Image src="/campflix.png" alt="" width={300} height={185} style={{marginBottom:8}}/>
+                        <p style={{paddingTop:10}}>Campflix simple movie website</p>
                     </a>
                 </div>
                 <div>
@@ -45,10 +45,16 @@ const Portfolio = () => {
                         <p style={{paddingTop:10}}>Robo Friends</p>
                     </a>
                 </div>
-                <div className={styles.zone}>
+                <div>
+                    <a href="https://simple-next-app-one.vercel.app/" className={styles.zone}>
+                        <Image src="/Ninja-List.png" alt="" width={300} height={185} style={{marginBottom:8}}/>
+                        <p style={{paddingTop:10}}>Ninja-List (Tutor NextJS)</p>
+                    </a>
+                </div>
+                {/* <div className={styles.zone}>
                     <Image src="/comingsoon.jpg" alt="" width={300} height={185} style={{marginBottom:8}}/>
                     <p style={{paddingTop:10}}>Stay tuned, coming soon!</p>
-                </div>
+                </div> */}
             </div>
 
             <div className={styles.contTitleSkill}>
